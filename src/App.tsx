@@ -9,9 +9,6 @@ import GlobalStyle from './style/Global'
 import Menu from './components/Menu'
 import ToastListener from './components/ToastListener'
 import PageLoader from './components/PageLoader'
-import EasterEgg from './components/EasterEgg'
-import Pools from './views/Pools'
-import GlobalCheckBullHiccupClaimStatus from './views/Collectibles/components/GlobalCheckBullHiccupClaimStatus'
 import history from './routerHistory'
 
 // Route-based code splitting
@@ -68,7 +65,6 @@ const App: React.FC = () => {
         </Suspense>
       </Menu>
       <ToastListener />
-      <GlobalCheckBullHiccupClaimStatus />
     </Router>
   )
 }
