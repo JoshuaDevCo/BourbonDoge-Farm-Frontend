@@ -95,7 +95,7 @@ const Home: React.FC = () => {
         <Heading as="h1" size="xl" color="#FFFFFF" mb="24px">
           Bourbon Finance
         </Heading>
-        <Blurb>High yields bottled on Milkomeda</Blurb>
+        <Blurb>High yields bottled on DogeChain</Blurb>
       </Header>
       <Page>
         <div>
