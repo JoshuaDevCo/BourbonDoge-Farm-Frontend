@@ -173,9 +173,9 @@ const ActionPanel: React.FunctionComponent<ActionPanelProps> = ({ details, apr, 
         <StakeContainer>
           Stake:
           <StyledLinkExternal href={farm.isTokenOnly ?
-            `https://doge.bourbondefi.com/swap?outputCurrency=${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
+            `https://doge.bourbondefi.com/#/swap?outputCurrency=${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
             :
-          `https://doge.bourbondefi.com/add/${liquidityUrlPathParts}`
+          `https://doge.bourbondefi.com/#/add/${liquidityUrlPathParts}`
         }>
             {lpLabel}
           </StyledLinkExternal>
