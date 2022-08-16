@@ -77,6 +77,21 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.DOGE,
     quoteTokenAdresses: contracts.wada,
   },
+  {
+    pid: 5,
+    lpSymbol: 'FOGE-DOGE',
+    lpAddresses: {
+      97: '',
+      2000: '0xca59606b0e6de96A550f8fc4BBD394b68Ef8225A', // WADA-USDC Bourbon-LP
+    },
+    tokenSymbol: 'FOGE',
+    tokenAddresses: {
+      97: '',
+      2000: '0xc2DD4557Ad5b9b481AFc3f9B1Db3D8A5Ce60Dace',
+    },
+    quoteTokenSymbol: QuoteToken.DOGE,
+    quoteTokenAdresses: contracts.wada,
+  },
 
 ]
 
