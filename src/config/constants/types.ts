@@ -41,7 +41,8 @@ export enum QuoteToken {
   'LTC' = 'LTC',
   'BOURBON' = 'BOURBON',
   'ADA' = 'ADA',
-  'USDT' = 'USDT'
+  'USDT' = 'USDT',
+  'USDC' = 'USDC'
 }
 
 export enum PoolCategory {

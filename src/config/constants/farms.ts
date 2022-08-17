@@ -92,6 +92,82 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.DOGE,
     quoteTokenAdresses: contracts.wada,
   },
+  {
+    pid: 7,
+    lpSymbol: 'USDT-DOGE',
+    lpAddresses: {
+      97: '',
+      2000: '0x4F8401E18f460DDE7DA568519835cb2Ae35F9163', // WADA-USDC Bourbon-LP
+    },
+    tokenSymbol: 'FOGE',
+    tokenAddresses: {
+      97: '',
+      2000: '0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D',
+    },
+    quoteTokenSymbol: QuoteToken.DOGE,
+    quoteTokenAdresses: contracts.wada,
+  },
+  {
+    pid: 6,
+    lpSymbol: 'BOURBON-USDT',
+    lpAddresses: {
+      97: '',
+      2000: '0xEbf9Fc1AFeB9dbc08Fb50F900B50c75277d1a2fd', // WADA-USDC Bourbon-LP
+    },
+    tokenSymbol: 'BOURBON',
+    tokenAddresses: {
+      97: '',
+      2000: '0x44aA2dfe660439E9a93483EC665Bf20dE62CEc2B',
+    },
+    quoteTokenSymbol: QuoteToken.USDT,
+    quoteTokenAdresses: contracts.usdt,
+  },
+  {
+    pid: 8,
+    lpSymbol: 'USDC-DOGE',
+    lpAddresses: {
+      97: '',
+      2000: '0x38e333d477f64a7d2dBDBC0B8902671A9684a10b', // WADA-USDC Bourbon-LP
+    },
+    tokenSymbol: 'USDC',
+    tokenAddresses: {
+      97: '',
+      2000: '0x765277EebeCA2e31912C9946eAe1021199B39C61',
+    },
+    quoteTokenSymbol: QuoteToken.DOGE,
+    quoteTokenAdresses: contracts.wada,
+  },
+  {
+    pid: 9,
+    lpSymbol: 'BOURBON-USDC',
+    lpAddresses: {
+      97: '',
+      2000: '0x78c2CBdf7AfDF2159A46FBFfb6c31AcAc8bAF930', // BOURBON-USDC Bourbon-LP
+    },
+    tokenSymbol: 'BOURBON',
+    tokenAddresses: {
+      97: '',
+      2000: '0x44aA2dfe660439E9a93483EC665Bf20dE62CEc2B',
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
+  {
+    pid: 10,
+    lpSymbol: 'USDT-USDC',
+    lpAddresses: {
+      97: '',
+      2000: '0x61ab7A11728d0129B1c2E2028f9404DC99ff7D61', // BOURBON-USDC Bourbon-LP
+    },
+    tokenSymbol: 'USDT',
+    tokenAddresses: {
+      97: '',
+      2000: '0x44aA2dfe660439E9a93483EC665Bf20dE62CEc2B',
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
+
 ]
 
 export default farms
