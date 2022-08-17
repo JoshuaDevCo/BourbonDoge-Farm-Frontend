@@ -41,6 +41,11 @@ const config: MenuEntry[] = [
     icon: 'TelegramIcon',
     href: 'https://t.me/BourbonDAO',
   },
+  {
+    label: 'Doge Miner',
+    icon: 'FarmIcon',
+    href: 'https://dogeminer.bourbondefi.com/',
+  },
 ]
 
 export default config
