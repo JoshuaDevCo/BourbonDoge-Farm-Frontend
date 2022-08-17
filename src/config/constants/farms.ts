@@ -172,7 +172,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'YODE-DOGE',
     lpAddresses: {
       97: '',
-      2000: '0x61ab7A11728d0129B1c2E2028f9404DC99ff7D61', // BOURBON-USDC Bourbon-LP
+      2000: '0xea684E368bE5871A624baa09a891fd7bf93Ad673', // BOURBON-USDC Bourbon-LP
     },
     tokenSymbol: 'YODE',
     tokenAddresses: {
@@ -187,7 +187,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'ETH-DOGE',
     lpAddresses: {
       97: '',
-      2000: '0x61ab7A11728d0129B1c2E2028f9404DC99ff7D61', // BOURBON-USDC Bourbon-LP
+      2000: '0x6F5E8b72842Ff33aD6C8c7B6a11d263234EeB921', // BOURBON-USDC Bourbon-LP
     },
     tokenSymbol: 'ETH',
     tokenAddresses: {
