@@ -33,6 +33,21 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.usdt,
   },
   {
+    pid: 7,
+    lpSymbol: 'DOGE-USDT',
+    lpAddresses: {
+      97: '',
+      2000: '0x4F8401E18f460DDE7DA568519835cb2Ae35F9163', // WADA-USDC Bourbon-LP
+    },
+    tokenSymbol: 'USDT',
+    tokenAddresses: {
+      97: '',
+      2000: '0xC4095a7161f83F9155877Bb806ccf993E96e6911',
+    },
+    quoteTokenSymbol: QuoteToken.DOGE,
+    quoteTokenAdresses: contracts.wada,
+  },
+  {
     pid: 1,
     lpSymbol: 'YUZU-DOGE',
     lpAddresses: {
@@ -107,7 +122,6 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.DOGE,
     quoteTokenAdresses: contracts.wada,
   },
-
 ]
 
 export default farms
