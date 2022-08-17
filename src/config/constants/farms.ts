@@ -18,6 +18,21 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.cake,
   },
   {
+    pid: 6,
+    lpSymbol: 'BOURBON-USDT',
+    lpAddresses: {
+      97: '',
+      2000: '0xEbf9Fc1AFeB9dbc08Fb50F900B50c75277d1a2fd', // WADA-USDC Bourbon-LP
+    },
+    tokenSymbol: 'BOURBON',
+    tokenAddresses: {
+      97: '',
+      2000: '0x44aA2dfe660439E9a93483EC665Bf20dE62CEc2B',
+    },
+    quoteTokenSymbol: QuoteToken.USDT,
+    quoteTokenAdresses: contracts.usdt,
+  },
+  {
     pid: 1,
     lpSymbol: 'YUZU-DOGE',
     lpAddresses: {
