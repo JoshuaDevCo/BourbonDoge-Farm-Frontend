@@ -92,36 +92,6 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.DOGE,
     quoteTokenAdresses: contracts.wada,
   },
-  {
-    pid: 6,
-    lpSymbol: 'BOURBON-USDT',
-    lpAddresses: {
-      97: '',
-      2000: '0xEbf9Fc1AFeB9dbc08Fb50F900B50c75277d1a2fd', // WADA-USDC Bourbon-LP
-    },
-    tokenSymbol: 'BOURBON',
-    tokenAddresses: {
-      97: '',
-      2000: '0x44aA2dfe660439E9a93483EC665Bf20dE62CEc2B',
-    },
-    quoteTokenSymbol: QuoteToken.USDT,
-    quoteTokenAdresses: contracts.usdt,
-  },
-  {
-    pid: 7,
-    lpSymbol: 'DOGE-USDT',
-    lpAddresses: {
-      97: '',
-      2000: '0x4F8401E18f460DDE7DA568519835cb2Ae35F9163', // WADA-USDC Bourbon-LP
-    },
-    tokenSymbol: 'USDT',
-    tokenAddresses: {
-      97: '',
-      2000: '0xC4095a7161f83F9155877Bb806ccf993E96e6911',
-    },
-    quoteTokenSymbol: QuoteToken.DOGE,
-    quoteTokenAdresses: contracts.wada,
-  },
 ]
 
 export default farms
