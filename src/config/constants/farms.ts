@@ -167,7 +167,36 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
-
+  {
+    pid: 11,
+    lpSymbol: 'YODE-DOGE',
+    lpAddresses: {
+      97: '',
+      2000: '0x61ab7A11728d0129B1c2E2028f9404DC99ff7D61', // BOURBON-USDC Bourbon-LP
+    },
+    tokenSymbol: 'YODE',
+    tokenAddresses: {
+      97: '',
+      2000: '0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01',
+    },
+    quoteTokenSymbol: QuoteToken.DOGE,
+    quoteTokenAdresses: contracts.wada,
+  },
+  {
+    pid: 12,
+    lpSymbol: 'ETH-DOGE',
+    lpAddresses: {
+      97: '',
+      2000: '0x61ab7A11728d0129B1c2E2028f9404DC99ff7D61', // BOURBON-USDC Bourbon-LP
+    },
+    tokenSymbol: 'ETH',
+    tokenAddresses: {
+      97: '',
+      2000: '0xB44a9B6905aF7c801311e8F4E76932ee959c663C',
+    },
+    quoteTokenSymbol: QuoteToken.DOGE,
+    quoteTokenAdresses: contracts.wada,
+  },
 ]
 
 export default farms
