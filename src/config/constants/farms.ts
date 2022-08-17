@@ -14,7 +14,7 @@ const farms: FarmConfig[] = [
       97: '',
       2000: '0x44aA2dfe660439E9a93483EC665Bf20dE62CEc2B',
     },
-    quoteTokenSymbol: QuoteToken.ADA,
+    quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wada,
   },
   {
@@ -29,7 +29,7 @@ const farms: FarmConfig[] = [
       97: '',
       2000: '0xa98fa09D0BED62A9e0Fb2E58635b7C9274160dc7',
     },
-    quoteTokenSymbol: QuoteToken.ADA,
+    quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wada,
   },
   {
@@ -44,7 +44,7 @@ const farms: FarmConfig[] = [
       97: '',
       2000: '0x2BE0096B24343549E34224aa9aa297E99961023D',
     },
-    quoteTokenSymbol: QuoteToken.ADA,
+    quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wada,
   },
   {
@@ -59,7 +59,7 @@ const farms: FarmConfig[] = [
       97: '',
       2000: '0xe3fcA919883950c5cD468156392a6477Ff5d18de',
     },
-    quoteTokenSymbol: QuoteToken.ADA,
+    quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wada,
   },
   {
@@ -74,7 +74,7 @@ const farms: FarmConfig[] = [
       97: '',
       2000: '0xeE1DaaED7E25cD40AeaF7E45a51e1F4b2e28A993',
     },
-    quoteTokenSymbol: QuoteToken.ADA,
+    quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wada,
   },
   {
@@ -89,7 +89,7 @@ const farms: FarmConfig[] = [
       97: '',
       2000: '0xc2DD4557Ad5b9b481AFc3f9B1Db3D8A5Ce60Dace',
     },
-    quoteTokenSymbol: QuoteToken.ADA,
+    quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wada,
   },
   {
@@ -104,7 +104,7 @@ const farms: FarmConfig[] = [
       97: '',
       2000: '0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D',
     },
-    quoteTokenSymbol: QuoteToken.ADA,
+    quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wada,
   },
   {
@@ -114,13 +114,13 @@ const farms: FarmConfig[] = [
       97: '',
       2000: '0xEbf9Fc1AFeB9dbc08Fb50F900B50c75277d1a2fd', // WADA-USDC Bourbon-LP
     },
-    tokenSymbol: 'BOURBON',
+    tokenSymbol: 'USDT',
     tokenAddresses: {
       97: '',
-      2000: '0x44aA2dfe660439E9a93483EC665Bf20dE62CEc2B',
+      2000: '0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D',
     },
     quoteTokenSymbol: QuoteToken.USDT,
-    quoteTokenAdresses: contracts.usdt,
+    quoteTokenAdresses: contracts.cake,
   },
   {
     pid: 8,
@@ -134,7 +134,7 @@ const farms: FarmConfig[] = [
       97: '',
       2000: '0x765277EebeCA2e31912C9946eAe1021199B39C61',
     },
-    quoteTokenSymbol: QuoteToken.ADA,
+    quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wada,
   },
   {
@@ -150,7 +150,7 @@ const farms: FarmConfig[] = [
       2000: '0x44aA2dfe660439E9a93483EC665Bf20dE62CEc2B',
     },
     quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
+    quoteTokenAdresses: contracts.cake,
   },
   {
     pid: 10,
@@ -159,13 +159,13 @@ const farms: FarmConfig[] = [
       97: '',
       2000: '0x61ab7A11728d0129B1c2E2028f9404DC99ff7D61', // BOURBON-USDC Bourbon-LP
     },
-    tokenSymbol: 'USDT',
+    tokenSymbol: 'USDC',
     tokenAddresses: {
       97: '',
-      2000: '0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D',
+      2000: '0x765277EebeCA2e31912C9946eAe1021199B39C61',
     },
-    quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
+    quoteTokenSymbol: QuoteToken.USDT,
+    quoteTokenAdresses: contracts.usdt,
   },
   {
     pid: 11,
@@ -179,7 +179,7 @@ const farms: FarmConfig[] = [
       97: '',
       2000: '0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01',
     },
-    quoteTokenSymbol: QuoteToken.ADA,
+    quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wada,
   },
   {
@@ -194,7 +194,7 @@ const farms: FarmConfig[] = [
       97: '',
       2000: '0xB44a9B6905aF7c801311e8F4E76932ee959c663C',
     },
-    quoteTokenSymbol: QuoteToken.ADA,
+    quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wada,
   },
 ]
