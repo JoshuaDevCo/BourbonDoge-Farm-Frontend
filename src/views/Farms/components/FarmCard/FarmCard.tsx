@@ -205,7 +205,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
           lpTokenPriceFormated={lpTokenPriceFormated}
           lpLabel={lpLabel}
           addLiquidityUrl={farm.isTokenOnly ?
-            `https://doge.bourbondefi.com/swap?outputCurrency=${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
+            `https://doge.bourbondefi.com/#/swap?outputCurrency=${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
             :
           `https://doge.bourbondefi.com/#/add/${liquidityUrlPathParts}`
         }
