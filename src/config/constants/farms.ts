@@ -197,6 +197,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wada,
   },
+  {
+    pid: 13,
+    isTokenOnly: true,
+    lpSymbol: 'BOURBON',
+    lpAddresses: {
+      97: '',
+      2000: '0x0d6e879bA684cCb95454c55998893F88dd6d0A02', // WADA-USDC Bourbon-LP
+    },
+    tokenSymbol: 'BOURBON',
+    tokenAddresses: {
+      97: '',
+      2000: '0x44aA2dfe660439E9a93483EC665Bf20dE62CEc2B',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wada,
+  },
 ]
 
 export default farms
