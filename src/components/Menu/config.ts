@@ -34,7 +34,7 @@ const config: MenuEntry[] = [
   {
     label: 'Docs',
     icon: 'InfoIcon',
-    href: 'https://app.gitbook.com/@bourbondefi/s/bourbon-finance/',
+    href: 'https://bourbondefi.gitbook.io/bourbon-finance/',
   },
   {
     label: 'Telegram',
