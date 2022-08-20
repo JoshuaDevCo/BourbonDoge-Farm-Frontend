@@ -24,15 +24,11 @@ export default {
     97: '',
   },
   busd: {
-    2000: '0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D',
-    97: '',
-  },
-  ust: {
-    2000: '0x44aA2dfe660439E9a93483EC665Bf20dE62CEc2B',
+    2000: '0x332730a4F6E03D9C55829435f10360E13cfA41Ff',
     97: '',
   },
   eth: {
-    2000: '0x44aA2dfe660439E9a93483EC665Bf20dE62CEc2B',
+    2000: '0xB44a9B6905aF7c801311e8F4E76932ee959c663C',
     97: '',
   },
   lottery: {

@@ -229,6 +229,13 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         if (farm.quoteTokenSymbol === QuoteToken.CAKE) {
           liquidity = cakePrice.times(farm.lpTotalInQuoteToken)
         }
+        if (farm.quoteTokenSymbol === QuoteToken.USDT) {
+          liquidity = new BigNumber(1000000000000).times(farm.lpTotalInQuoteToken)
+        }  
+        if (farm.quoteTokenSymbol === QuoteToken.USDC) {
+          liquidity = new BigNumber(1000000000000).times(farm.lpTotalInQuoteToken)
+        }  
+
 
         return { ...farm, apy, liquidity }
       })
