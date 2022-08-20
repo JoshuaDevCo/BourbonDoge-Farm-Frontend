@@ -18,6 +18,81 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wada,
   },
   {
+    pid: 9,
+    lpSymbol: 'BOURBON-USDC',
+    lpAddresses: {
+      97: '',
+      2000: '0x78c2CBdf7AfDF2159A46FBFfb6c31AcAc8bAF930', // BOURBON-USDC Bourbon-LP
+    },
+    tokenSymbol: 'BOURBON',
+    tokenAddresses: {
+      97: '',
+      2000: '0x44aA2dfe660439E9a93483EC665Bf20dE62CEc2B',
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
+  {
+    pid: 6,
+    lpSymbol: 'BOURBON-USDT',
+    lpAddresses: {
+      97: '',
+      2000: '0xEbf9Fc1AFeB9dbc08Fb50F900B50c75277d1a2fd', // WADA-USDC Bourbon-LP
+    },
+    tokenSymbol: 'BOURBON',
+    tokenAddresses: {
+      97: '',
+      2000: '0x44aA2dfe660439E9a93483EC665Bf20dE62CEc2B',
+    },
+    quoteTokenSymbol: QuoteToken.USDT,
+    quoteTokenAdresses: contracts.usdt,
+  },
+  {
+    pid: 12,
+    lpSymbol: 'ETH-DOGE',
+    lpAddresses: {
+      97: '',
+      2000: '0x6F5E8b72842Ff33aD6C8c7B6a11d263234EeB921', // BOURBON-USDC Bourbon-LP
+    },
+    tokenSymbol: 'ETH',
+    tokenAddresses: {
+      97: '',
+      2000: '0xB44a9B6905aF7c801311e8F4E76932ee959c663C',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wada,
+  },
+  {
+    pid: 7,
+    lpSymbol: 'USDT-DOGE',
+    lpAddresses: {
+      97: '',
+      2000: '0x4F8401E18f460DDE7DA568519835cb2Ae35F9163', // WADA-USDC Bourbon-LP
+    },
+    tokenSymbol: 'DOGE',
+    tokenAddresses: {
+      97: '',
+      2000: '0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101',
+    },
+    quoteTokenSymbol: QuoteToken.USDT,
+    quoteTokenAdresses: contracts.usdt,
+  },
+  {
+    pid: 8,
+    lpSymbol: 'USDC-DOGE',
+    lpAddresses: {
+      97: '',
+      2000: '0x38e333d477f64a7d2dBDBC0B8902671A9684a10b', // WADA-USDC Bourbon-LP
+    },
+    tokenSymbol: 'DOGE',
+    tokenAddresses: {
+      97: '',
+      2000: '0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101',
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
+  {
     pid: 1,
     lpSymbol: 'YUZU-DOGE',
     lpAddresses: {
@@ -93,81 +168,6 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wada,
   },
   {
-    pid: 7,
-    lpSymbol: 'USDT-DOGE',
-    lpAddresses: {
-      97: '',
-      2000: '0x4F8401E18f460DDE7DA568519835cb2Ae35F9163', // WADA-USDC Bourbon-LP
-    },
-    tokenSymbol: 'DOGE',
-    tokenAddresses: {
-      97: '',
-      2000: '0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101',
-    },
-    quoteTokenSymbol: QuoteToken.USDT,
-    quoteTokenAdresses: contracts.usdt,
-  },
-  {
-    pid: 6,
-    lpSymbol: 'BOURBON-USDT',
-    lpAddresses: {
-      97: '',
-      2000: '0xEbf9Fc1AFeB9dbc08Fb50F900B50c75277d1a2fd', // WADA-USDC Bourbon-LP
-    },
-    tokenSymbol: 'BOURBON',
-    tokenAddresses: {
-      97: '',
-      2000: '0x44aA2dfe660439E9a93483EC665Bf20dE62CEc2B',
-    },
-    quoteTokenSymbol: QuoteToken.USDT,
-    quoteTokenAdresses: contracts.usdt,
-  },
-  {
-    pid: 8,
-    lpSymbol: 'USDC-DOGE',
-    lpAddresses: {
-      97: '',
-      2000: '0x38e333d477f64a7d2dBDBC0B8902671A9684a10b', // WADA-USDC Bourbon-LP
-    },
-    tokenSymbol: 'DOGE',
-    tokenAddresses: {
-      97: '',
-      2000: '0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101',
-    },
-    quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
-  },
-  {
-    pid: 9,
-    lpSymbol: 'BOURBON-USDC',
-    lpAddresses: {
-      97: '',
-      2000: '0x78c2CBdf7AfDF2159A46FBFfb6c31AcAc8bAF930', // BOURBON-USDC Bourbon-LP
-    },
-    tokenSymbol: 'BOURBON',
-    tokenAddresses: {
-      97: '',
-      2000: '0x44aA2dfe660439E9a93483EC665Bf20dE62CEc2B',
-    },
-    quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
-  },
-  {
-    pid: 10,
-    lpSymbol: 'USDT-USDC',
-    lpAddresses: {
-      97: '',
-      2000: '0x61ab7A11728d0129B1c2E2028f9404DC99ff7D61', // USDT-USDC Bourbon-LP
-    },
-    tokenSymbol: 'USDC',
-    tokenAddresses: {
-      97: '',
-      2000: '0x765277EebeCA2e31912C9946eAe1021199B39C61',
-    },
-    quoteTokenSymbol: QuoteToken.USDT,
-    quoteTokenAdresses: contracts.usdc,
-  },
-  {
     pid: 11,
     lpSymbol: 'YODE-DOGE',
     lpAddresses: {
@@ -178,21 +178,6 @@ const farms: FarmConfig[] = [
     tokenAddresses: {
       97: '',
       2000: '0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01',
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wada,
-  },
-  {
-    pid: 12,
-    lpSymbol: 'ETH-DOGE',
-    lpAddresses: {
-      97: '',
-      2000: '0x6F5E8b72842Ff33aD6C8c7B6a11d263234EeB921', // BOURBON-USDC Bourbon-LP
-    },
-    tokenSymbol: 'ETH',
-    tokenAddresses: {
-      97: '',
-      2000: '0xB44a9B6905aF7c801311e8F4E76932ee959c663C',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wada,
